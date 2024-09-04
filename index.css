@@ -220,6 +220,7 @@ h2{
 
 .competence > img{
     width: 8vw;
+    animation: spin 4s linear infinite;
 }
 
 .competence > h3{
@@ -258,6 +259,9 @@ h2{
     animation:animateSkillsToseventy 2s  ;
 }
 
+@keyframes spin { 
+    100% { transform: rotate(360deg); } 
+}
 
 @keyframes animateSkillsToFifty {
     from {
