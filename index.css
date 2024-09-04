@@ -239,6 +239,7 @@ h2{
     width: 80%;
     border-radius: 25px;
     text-align: center;
+    animation: animateSkillsToEighty 2s;
 }
 
 .cinquante{
@@ -246,6 +247,7 @@ h2{
     width: 50%;
     border-radius: 25px;
     text-align: center;
+    animation: animateSkillsToFifty 2s;
 }
 
 .soixante-quinze{
@@ -253,6 +255,36 @@ h2{
     width: 75%;
     border-radius: 25px;
     text-align: center;
+    animation:animateSkillsToseventy 2s  ;
+}
+
+
+@keyframes animateSkillsToFifty {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50% ;
+    }
+}
+@keyframes animateSkillsToseventy {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 75% ;
+    }
+}
+@keyframes animateSkillsToEighty {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80% ;
+    }
 }
 
 @media (max-width : 680px){
